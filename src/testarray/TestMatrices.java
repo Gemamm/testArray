@@ -23,15 +23,26 @@ public class TestMatrices {
         edades [1][1] = 6;
         edades [2][0] = 5;
         edades [2][1] = 9;
-        System.out.println("edades = " + edades);
+        imprimir(edades);
+        /*System.out.println("edades = " + edades);
         
         for (int i= 0; i < edades.length;i++){
             for (int j= 0; j < edades[i].length;j++){
                 System.out.println("edades [" +i+ "]["+ j +"]"+ edades[i][j]);
             }
-        }
+        }*/
         
         
     }
     
+    public static void imprimir(int matriz [][]){
+        
+         for (int i= 0; i < matriz.length;i++){
+            for (int j= 0; j < matriz[i].length;j++){
+                System.out.println("edades [" +i+ "]["+ j +"]"+ matriz[i][j]);
+        
+    }
+    
+}
+    }
 }
